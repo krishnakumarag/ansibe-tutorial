@@ -41,3 +41,11 @@ A Docker-based environment for learning and running Ansible playbooks.
 ## Volume Mapping
 
 The `ansible-files` directory is mounted at `/ansible` inside the container. Any changes you make to files in `ansible-files` are immediately available in the container.
+
+## Stop the Container
+
+To stop and remove the container:
+
+```bash
+docker compose down
+```
